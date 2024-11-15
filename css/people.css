@@ -1,0 +1,40 @@
+main{
+    background: url(../img/bg1.png) no-repeat;
+}
+.title{
+    margin:10px 0 0 12px;
+    font-size: 20px;
+    height: 45px;
+    line-height:45px;
+    text-align: center;
+    
+}
+.people{
+    display: flex;
+    padding:20px 50px;
+
+}
+.people:nth-child(2n+1){
+    flex-direction:row-reverse;
+}
+.people>img{
+    width: 200px;
+}
+.info{
+    padding:1px 30px;
+}
+.info>p{
+    font-weight: 600;
+    margin:15px 0;
+    font-size: 18px;
+}
+.bian{
+    margin:80px 0;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.bian>img{
+    width: 25%;
+}

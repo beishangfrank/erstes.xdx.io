@@ -1,0 +1,62 @@
+main{
+    background: url(../img/bg1.png) no-repeat;
+}
+.title{
+    margin:10px 0 0 12px;
+    font-size: 20px;
+    height: 45px;
+    line-height:45px;
+    text-align: center;
+    
+}
+.content{
+    margin:50px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.content>img{
+    width:49%;
+}
+.info{
+    width:43%;
+    padding:10px;    
+}
+.box{
+    position: relative;
+    width:100%;
+    height: 300px;
+    background-color: #c9c5c8;
+    padding: 20px;
+}
+.tab{
+    color:#686666;
+    width:100%;
+    display: flex;
+}
+.tab>span{
+    width:33.333%;
+    height: 50px;
+    font-size: 20px;
+}
+.btn{
+    right: 20px;
+    bottom: 15px;
+    position: absolute;
+    width: 110px;
+    height: 36px;
+    border-radius: 20px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    text-align: center;
+    line-height: 36px;
+    font-size: 18px;
+}
+.head{
+    padding:20px 25px;
+    display: flex;
+    align-items: center;
+}
+.head>span{
+    font-size: 20px;
+    margin-left: 10px;
+}

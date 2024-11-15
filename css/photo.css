@@ -1,0 +1,45 @@
+main{
+    background: url(../img/bg1.png) no-repeat;
+}
+.title{
+    margin:10px 0 0 12px;
+    font-size: 20px;
+    height: 45px;
+    line-height:45px;
+    text-align: center;
+    
+}
+.shou{
+    margin:30px auto;
+    padding:0 30px;
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+}
+.shou>img{
+    width:22%;
+}
+.dian{
+    margin:22px auto;
+    padding:0 30px;
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.dian>img{
+    margin:32px 0;
+    width:45%;
+}
+.biao{
+    margin:22px auto;
+    padding:0 30px;
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.biao>img{
+    margin:32px 0;
+    width:22%;
+}

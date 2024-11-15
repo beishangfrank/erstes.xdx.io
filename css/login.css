@@ -1,0 +1,71 @@
+main{
+    background: url(../img/bg2.png) no-repeat;
+    background-size: cover;
+}
+.title{
+    margin:10px 0 0 12px;
+    font-size: 20px;
+    height: 45px;
+    line-height:45px;
+    text-align: center;
+    
+}
+.input1>input{
+    margin:12px 0 12px 8px;
+    border:0;
+    width: 300px;
+    padding:10px 8px;
+    background-color: white;
+}
+.input1>input::placeholder{
+    font-size: 15px;
+}
+.login{
+    display: flex;
+    width: 480px;
+    margin:20px auto;
+}
+.head{
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.head>span{
+    margin:12px 0;
+    font-size: 20px;
+}
+.head>img{
+    width: 100%;
+}
+.btn{
+    cursor: pointer;
+    font-size: 22px;
+    color:#f0f5b4;
+    text-align: center;
+    line-height: 50px;
+    margin:20px auto;
+    width: 500px;
+    height: 50px;
+    background-color: #bfd4ad;
+}
+.register{
+    margin:auto;
+    width:90%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.register>.input2{
+    width:48%;
+    display: flex;
+    flex-direction: column;
+}
+.register>.input2>input{
+    width:85%;
+    margin:12px 0;
+    height: 40px;
+    border:0;
+    padding-left: 5px;
+}

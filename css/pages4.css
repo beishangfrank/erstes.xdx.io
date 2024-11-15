@@ -1,0 +1,35 @@
+.items{
+    display: flex;
+    flex-wrap: wrap;
+}
+.item{
+    position: relative;
+    padding:10px;
+    box-sizing: border-box;
+    width:29%;
+    margin:10px 20px;
+    height: 500px;
+    background-color:  #bfcf9f;
+    border-radius:1px 10px ;
+}
+.item>img{
+    bottom: 10px;
+    position: absolute;
+    border-radius: 29px;
+    width:258px;
+    height: 380px;
+}
+.re{
+    border-radius:100px 15px ;
+}
+.item>h4{
+    letter-spacing: 3px;
+    margin: 4px 0;
+text-align: center;
+}
+.item>p{
+    padding:0 5px;
+    line-height: 20px;
+    font-size: 13px;
+    text-indent: 2em;
+}

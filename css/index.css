@@ -1,0 +1,79 @@
+main{
+    background: url(../img/bg1.png) no-repeat;
+}
+.title{
+    margin:10px 0 0 12px;
+    font-size: 20px;
+    height: 45px;
+    line-height:45px;
+    text-align: center;
+    
+}
+.info{
+    margin:18px auto;
+    width:95%;
+
+}
+.info>p{
+    line-height: 36px;
+    font-size: 19px;
+    letter-spacing: 6px;
+    font-family: 'Adobe 黑体 Std';
+}
+.rens{
+    padding:50px 20px;
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+}
+.ren{
+    width: 230px;
+    position: relative;
+}
+.ren>img{
+    height: 240px;
+    width:100%;
+}
+.ren>p{
+    height: 40px;
+    background:url(../img/名字的框.png) no-repeat;
+    background-size: cover;
+    margin-top: 30px;
+    width:100%;
+    text-align: center;
+    font-size: 25px;
+}
+.img{
+    width: 100%;
+    margin:20px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.img>img{
+    width:20%;
+    cursor: pointer;
+}
+.content{
+    display: flex;
+    width:100%;
+    margin:30px 0;
+}.content>img{
+    width: 230px;
+}
+.content p{
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-indent: 2em;
+    line-height: 32px;
+}
+.photo{
+    margin:12px 0;
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.photo>img{
+    margin:20px 15px;
+    width:18%;
+}
